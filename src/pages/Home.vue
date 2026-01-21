@@ -89,7 +89,7 @@
             console.log('Отфильтрованные элементы:', filteredItems.length);
             items.value = filteredItems.map((obj) => ({
                 ...obj,
-                imageUrl: `/sneakers/${obj.imageUrl.replace('/sneakers/', '')}`,  // Извлекает имя файла и добавляет /sneakers/
+                imageUrl: obj.imageUrl,  // Извлекает имя файла и добавляет /sneakers/
                 isFavorite: false,
                 favoriteId: null,
                 isAdded: false
