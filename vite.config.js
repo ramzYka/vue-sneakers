@@ -7,7 +7,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/vue-sneakers/',
+  // base: '/vue-sneakers/',
   plugins: [
     vue(),
     vueDevTools(),
